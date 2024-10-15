@@ -4595,3 +4595,103 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-19.05.10:602][360]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/Standing_Walk_Back_Animation.Standing_Walk_Back_Animation
 [2024.10.15-19.05.11:567][416]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
 [2024.10.15-19.05.11:923][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.10.15-19.05.34:067][614]LogDerivedDataCache: C:/Users/SAURABH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:34.877 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 17721 files in 19667 folders with total size 2971 MiB.
+[2024.10.15-19.06.24:710][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.06.24:864][347]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking
+[2024.10.15-19.06.24:865][347]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_BlendSpcae_Walking82C61AC048A1916F9F6CB184A36E011E.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.uasset'
+[2024.10.15-19.06.24:888][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 16.2 sec)
+[2024.10.15-19.06.24:904][347]AssetCheck: New page: Asset Save: ABP_BlendSpcae_Walking
+[2024.10.15-19.06.24:904][347]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.ABP_BlendSpcae_Walking
+[2024.10.15-19.06.33:162][821]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.15-19.06.33:182][821]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.15-19.06.33:194][821]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.15-19.06.33:194][821]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.15-19.06.33:195][821]LogWorldPartition: Display: GetPartitionedActors took 1 ms (total: 9 ms)
+[2024.10.15-19.06.33:196][821]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 26 ms)
+[2024.10.15-19.06.33:205][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.15-19.06.33:215][821]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 6:06:33 AM)
+[2024.10.15-19.06.33:259][821]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.06.33:331][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071640s)
+[2024.10.15-19.06.33:331][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.072109s)
+[2024.10.15-19.06.33:335][821]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-19.06.33:350][821]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-19.06.33:377][821]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.15-19.06.33:398][821]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-19.06.33:398][821]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-19.06.33:398][821]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.15-19.06.33:403][821]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.15-19.06.33:408][821]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 608 ms)
+[2024.10.15-19.06.33:411][821]LogPlayLevel: PIE: World Init took: (0.080173s)
+[2024.10.15-19.06.33:500][821]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2024.10.15-19.06.33:508][821]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.15-19.06.33:511][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.15-19.06.33:511][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-19.06.33:516][821]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-19.06.33:516][821]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-19.06.33:516][821]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-19.06.33:525][821]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-19.06.33:694][821]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.15-19.06.33:699][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-19.06.33:699][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-19.06.33:699][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-19.06.33:707][821]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.10.15-19.06.33:707][821]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.10.15-19.06.33:710][821]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.10.15-19.06.33:710][821]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.10.15-19.06.33:711][821]LogInit: FAudioDevice initialized with ID 22.
+[2024.10.15-19.06.33:711][821]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2024.10.15-19.06.33:712][821]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.10.15-19.06.33:756][821]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-19.06.33:774][821]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.16-00.36.33
+[2024.10.15-19.06.33:779][821]LogWorld: Bringing up level for play took: 0.020038
+[2024.10.15-19.06.33:800][821]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.10.15-19.06.33:852][821]PIE: Server logged in
+[2024.10.15-19.06.33:853][821]PIE: Play in editor total start time 0.674 seconds.
+[2024.10.15-19.06.34:016][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:019][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:020][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:022][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:023][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:024][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:025][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:026][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:026][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:031][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:055][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:057][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:108][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:110][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:111][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:114][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:114][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:115][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:116][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:117][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:118][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:118][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:121][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.06.34:121][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.07.00:132][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.07.00:132][376]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.07.00:138][376]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-19.07.00:142][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.07.00:145][376]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.15-19.07.00:166][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.15-19.07.00:174][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.07.00:249][376]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-19.07.00:250][376]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.10.15-19.07.00:251][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.10.15-19.07.00:254][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.10.15-19.07.00:264][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.07.00:278][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.10.15-19.07.00:350][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.07.00:477][377]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2024.10.15-19.07.00:517][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.07.06:177][703]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-19.07.06:303][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
