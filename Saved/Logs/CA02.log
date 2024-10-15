@@ -3605,3 +3605,87 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-18.20.13:585][673]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 10.1 sec)
 [2024.10.15-18.20.13:593][673]AssetCheck: New page: Asset Save: ABP_Walking
 [2024.10.15-18.20.13:593][673]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-18.23.44:977][ 37]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.23.44:977][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.23.45:316][ 37]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.23.45:316][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.24.20:865][431]BlueprintLog: New page: Compile IBP_Animation
+[2024.10.15-18.24.21:034][431]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2024.10.15-18.24.21:478][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.24.21:610][449]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/IBP_Animation
+[2024.10.15-18.24.21:611][449]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/IBP_Animation4BE71E8E44E8C14B42D496A618719BFE.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/IBP_Animation.uasset'
+[2024.10.15-18.24.21:631][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 10.2 sec)
+[2024.10.15-18.24.21:646][449]AssetCheck: New page: Asset Save: IBP_Animation
+[2024.10.15-18.24.21:646][449]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.15-18.24.34:970][674]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.24.34:970][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.24.35:072][674]LogViewport: Scene viewport resized to 1526x900, mode Windowed.
+[2024.10.15-18.24.35:139][675]LogViewport: Scene viewport resized to 1526x894, mode Windowed.
+[2024.10.15-18.24.50:558][580]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.24.50:558][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.24.50:589][580]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.24.50:589][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.24.50:713][580]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.24.50:713][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.25.50:673][930]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-18.25.50:673][930]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.25.50:673][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.25.50:686][930]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.25.50:686][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.25.50:699][930]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-18.25.51:023][930]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.25.51:024][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.25.51:349][930]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2024.10.15-18.25.51:384][930]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.10.15-18.26.25:852][914]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.26.25:852][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.26.25:873][914]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.26.25:873][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.26.26:017][914]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.26.26:017][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.27.03:395][ 59]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.15-18.27.03:396][ 59]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.27.03:396][ 59]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.27.09:737][432]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.27.09:737][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.27.09:795][432]LogViewport: Scene viewport resized to 1526x913, mode Windowed.
+[2024.10.15-18.27.09:814][433]LogViewport: Scene viewport resized to 1526x905, mode Windowed.
+[2024.10.15-18.27.09:862][434]LogViewport: Scene viewport resized to 1526x894, mode Windowed.
+[2024.10.15-18.27.19:463][930]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.10.15-18.27.24:864][930]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.15-18.27.26:519][ 19]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.15-18.27.26:520][ 19]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.27.26:520][ 19]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.28.13:640][430]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.10.15-18.28.23:559][635]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.10.15-18.28.23:586][635]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2024.10.15-18.28.23:605][635]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2024.10.15-18.28.23:635][636]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2024.10.15-18.28.23:699][639]LogContentBrowser: Attempting asset rename: NewBlendSpace -> NewBlendSpace
+[2024.10.15-18.28.23:717][639]LogContentBrowser: End creating deferred item NewBlendSpace
+[2024.10.15-18.28.42:228][675]LogContentBrowser: Attempting asset rename: NewBlendSpace -> ABP_BlendSpace_Crouch
+[2024.10.15-18.28.42:638][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.28.42:769][675]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Crouch
+[2024.10.15-18.28.42:769][675]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_BlendSpace_Crouch6DA3EE4C401C26EE3FEC23A5B3CDB037.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Crouch.uasset'
+[2024.10.15-18.28.42:799][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 10.4 sec)
+[2024.10.15-18.28.42:898][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.10.15-18.28.42:947][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.10.15-18.28.42:979][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.10.15-18.28.42:986][675]AssetCheck: New page: Asset Save: ABP_BlendSpace_Crouch
+[2024.10.15-18.28.42:986][675]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Crouch.ABP_BlendSpace_Crouch
+[2024.10.15-18.28.45:177][795]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Crouch.ABP_BlendSpace_Crouch
+[2024.10.15-18.28.45:179][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.28.45:179][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.28.45:194][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-18.28.45:652][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.28.45:652][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.28.45:924][795]LogViewport: Scene viewport resized to 738x317, mode Windowed.
+[2024.10.15-18.28.45:941][795]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.10.15-18.28.47:830][846]LogViewport: Scene viewport resized to 736x331, mode Windowed.
+[2024.10.15-18.28.48:008][848]LogViewport: Scene viewport resized to 467x187, mode Windowed.
+[2024.10.15-18.28.48:085][850]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.10.15-18.28.48:622][881]LogSlate: Window 'ABP_BlendSpace_Crouch' being destroyed
+[2024.10.15-18.28.48:652][881]LogViewport: Scene viewport resized to 1141x562, mode Windowed.
+[2024.10.15-18.28.48:704][882]LogViewport: Scene viewport resized to 1141x551, mode Windowed.
+[2024.10.15-18.28.48:741][883]LogViewport: Scene viewport resized to 1141x540, mode Windowed.
+[2024.10.15-18.28.48:796][884]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
