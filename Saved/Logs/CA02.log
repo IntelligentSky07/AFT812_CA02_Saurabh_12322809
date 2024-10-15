@@ -4258,3 +4258,340 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-18.58.48:561][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.15-18.58.48:722][615]LogPlayLevel: Display: Destroying online subsystem :Context_68
 [2024.10.15-18.58.48:762][615]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:280][ 22]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.15-19.00.01:292][ 22]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.15-19.00.01:294][ 22]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.15-19.00.01:294][ 22]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.15-19.00.01:294][ 22]LogWorldPartition: Display: GetPartitionedActors took 15 us (total: 8 ms)
+[2024.10.15-19.00.01:294][ 22]LogWorldPartition: Display: GenerateStreaming took 229 us (total: 24 ms)
+[2024.10.15-19.00.01:295][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.15-19.00.01:295][ 22]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 6:00:01 AM)
+[2024.10.15-19.00.01:295][ 22]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.00.01:300][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005411s)
+[2024.10.15-19.00.01:301][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005501s)
+[2024.10.15-19.00.01:301][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-19.00.01:301][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-19.00.01:302][ 22]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.15-19.00.01:302][ 22]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-19.00.01:303][ 22]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-19.00.01:303][ 22]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.15-19.00.01:304][ 22]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.15-19.00.01:304][ 22]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 599 ms)
+[2024.10.15-19.00.01:304][ 22]LogPlayLevel: PIE: World Init took: (0.003272s)
+[2024.10.15-19.00.01:352][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.10.15-19.00.01:357][ 22]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.15-19.00.01:357][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.15-19.00.01:357][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-19.00.01:357][ 22]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-19.00.01:358][ 22]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-19.00.01:358][ 22]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-19.00.01:362][ 22]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-19.00.01:510][ 22]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.15-19.00.01:511][ 22]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-19.00.01:511][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-19.00.01:511][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-19.00.01:514][ 22]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.10.15-19.00.01:514][ 22]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.10.15-19.00.01:516][ 22]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.10.15-19.00.01:516][ 22]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.10.15-19.00.01:516][ 22]LogInit: FAudioDevice initialized with ID 21.
+[2024.10.15-19.00.01:516][ 22]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2024.10.15-19.00.01:516][ 22]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.15-19.00.01:520][ 22]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-19.00.01:522][ 22]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.16-00.30.01
+[2024.10.15-19.00.01:522][ 22]LogWorld: Bringing up level for play took: 0.002183
+[2024.10.15-19.00.01:526][ 22]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.10.15-19.00.01:530][ 22]PIE: Server logged in
+[2024.10.15-19.00.01:531][ 22]PIE: Play in editor total start time 0.24 seconds.
+[2024.10.15-19.00.01:546][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:547][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:547][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:549][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:550][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:550][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:551][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:552][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:553][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:554][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:557][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:557][ 22]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:620][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:621][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:623][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:625][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:625][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:628][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:629][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:630][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:630][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:632][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:636][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.01:637][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.13:858][753]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.15-19.00.27:562][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.00.27:562][570]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.00.27:562][570]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-19.00.27:563][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.00.27:563][570]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.15-19.00.27:569][570]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.15-19.00.27:574][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.00.27:637][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.00.27:637][570]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.15-19.00.27:637][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.15-19.00.27:640][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.15-19.00.27:651][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.10.15-19.00.27:705][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.27:739][571]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.10.15-19.00.27:766][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.00.38:104][158]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.ABP_BlendSpcae_Walking
+[2024.10.15-19.00.38:126][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-19.00.38:126][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-19.00.38:170][158]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-19.00.38:711][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-19.00.38:712][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-19.00.39:151][158]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.10.15-19.00.39:172][158]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.10.15-19.00.51:944][864]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.10.15-19.01.28:211][ 67]LogAnalytics: Warning: EventCache either took too long to flush (1.132 ms) or had a very large payload (0.429 KB, 1 events). Listing events in the payload for investigation:
+[2024.10.15-19.01.28:223][ 67]LogAnalytics: Warning:     Editor.Usage.Heartbeat,426
+[2024.10.15-19.05.00:451][285]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/Standing Walk Back_Animation.fbx)
+[2024.10.15-19.05.00:503][285]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/Standing Walk Back_Animation.fbx
+[2024.10.15-19.05.00:550][285]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.05.04:481][285]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.05.04:695][285]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.05.04:696][285]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.05.04:697][285]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.05.04:698][285]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.05.05:587][285]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/Standing_Walk_Back_Animation.Standing_Walk_Back_Animation
+[2024.10.15-19.05.05:654][285]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/Standing_Walk_Back_Animation.Standing_Walk_Back_Animation, at AnimationSequence/0cc35dab40fb9fa15a4f45f972b1446de25f7086
+[2024.10.15-19.05.05:750][285]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/Standing Walk Left_Animation.fbx)
+[2024.10.15-19.05.05:760][285]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/Standing Walk Left_Animation.fbx
+[2024.10.15-19.05.05:783][285]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.05.05:785][285]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.05.05:786][285]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.05.05:787][285]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.05.05:787][285]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.05.06:410][285]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/Standing_Walk_Left_Animation.Standing_Walk_Left_Animation
+[2024.10.15-19.05.06:467][285]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/Standing_Walk_Left_Animation.Standing_Walk_Left_Animation
+[2024.10.15-19.05.06:508][285]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/Standing Walk Right_Animation.fbx)
+[2024.10.15-19.05.06:515][285]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/Standing Walk Right_Animation.fbx
+[2024.10.15-19.05.06:517][285]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/Standing_Walk_Left_Animation.Standing_Walk_Left_Animation, at AnimationSequence/4a2d3f75cd378e01275e3430e6c356d643e58714
+[2024.10.15-19.05.06:534][285]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.05.06:535][285]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.05.06:536][285]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.05.06:536][285]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.05.07:227][285]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/Standing_Walk_Right_Animation.Standing_Walk_Right_Animation
+[2024.10.15-19.05.07:263][285]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/Standing_Walk_Right_Animation.Standing_Walk_Right_Animation
+[2024.10.15-19.05.07:297][285]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/Standing_Walk_Right_Animation.Standing_Walk_Right_Animation, at AnimationSequence/a067e03db9fa9c689b840245363d4aaef442da85
+[2024.10.15-19.05.08:824][360]LogUObjectHash: Compacting FUObjectHashTables data took  17.66ms
+[2024.10.15-19.05.10:172][360]LogSlate: Window 'Save Content' being destroyed
+[2024.10.15-19.05.10:187][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.05.10:462][360]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-19.05.10:463][360]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter811A26DE46F5DD4E1D61F1A67014D9E8.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-19.05.10:498][360]LogSavePackage: Moving output files for package: /Game/CA02/Animations/Standing_Walk_Back_Animation
+[2024.10.15-19.05.10:498][360]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/Standing_Walk_Back_AnimationF703373C40B5E2E0A6C1789ECFA0A167.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/Standing_Walk_Back_Animation.uasset'
+[2024.10.15-19.05.10:532][360]LogSavePackage: Moving output files for package: /Game/CA02/Animations/Standing_Walk_Left_Animation
+[2024.10.15-19.05.10:533][360]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/Standing_Walk_Left_Animation552255E943CF94D4ED1B6A98DDA9A4AF.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/Standing_Walk_Left_Animation.uasset'
+[2024.10.15-19.05.10:566][360]LogSavePackage: Moving output files for package: /Game/CA02/Animations/Standing_Walk_Right_Animation
+[2024.10.15-19.05.10:566][360]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/Standing_Walk_Right_Animation6FB62E7E4F6090DA39B0868293C02DE0.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/Standing_Walk_Right_Animation.uasset'
+[2024.10.15-19.05.10:585][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 398 ms (total: 16.0 sec)
+[2024.10.15-19.05.10:600][360]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.15-19.05.10:600][360]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-19.05.10:602][360]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/Standing_Walk_Right_Animation.Standing_Walk_Right_Animation
+[2024.10.15-19.05.10:602][360]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/Standing_Walk_Left_Animation.Standing_Walk_Left_Animation
+[2024.10.15-19.05.10:602][360]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/Standing_Walk_Back_Animation.Standing_Walk_Back_Animation
+[2024.10.15-19.05.11:567][416]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-19.05.11:923][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
