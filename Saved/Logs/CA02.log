@@ -3920,3 +3920,52 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-18.39.03:033][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.15-18.39.03:132][762]LogPlayLevel: Display: Destroying online subsystem :Context_62
 [2024.10.15-18.39.03:165][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-18.40.02:624][ 81]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.40.02:624][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.40.02:655][ 81]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.40.02:655][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.40.02:794][ 81]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.40.02:795][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.40.04:828][200]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.40.04:828][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.40.06:155][263]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.40.06:155][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.40.06:275][263]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-18.40.06:275][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-18.40.56:891][899]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.40.56:893][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.40.56:893][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.44.25:335][696]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-18.44.25:342][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.44.25:343][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.44.25:372][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.44.25:372][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.44.25:401][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-18.44.26:202][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-18.44.26:202][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-18.44.26:542][696]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2024.10.15-18.44.26:652][696]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.10.15-18.44.38:259][216]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-18.44.39:025][216]LogUObjectHash: Compacting FUObjectHashTables data took  22.32ms
+[2024.10.15-18.44.39:441][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.44.39:906][225]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-18.44.39:920][225]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking1B28812244992097DD5568B53DB6BBD8.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-18.44.39:964][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 523 ms (total: 12.6 sec)
+[2024.10.15-18.44.40:001][225]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-18.44.40:002][225]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-18.44.43:906][438]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-18.44.44:161][438]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2024.10.15-18.44.45:012][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.44.45:232][484]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-18.44.45:233][484]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking2C53EABB486F06DF47A9F5BD80B5804F.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-18.44.45:256][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 12.8 sec)
+[2024.10.15-18.44.45:268][484]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-18.44.45:268][484]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-18.45.55:188][699]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-18.45.55:298][699]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2024.10.15-18.45.55:849][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.45.56:029][728]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-18.45.56:029][728]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingFCBB20444F48DFAB96D4F3AEB0C89E68.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-18.45.56:046][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 13.0 sec)
+[2024.10.15-18.45.56:056][728]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-18.45.56:056][728]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
