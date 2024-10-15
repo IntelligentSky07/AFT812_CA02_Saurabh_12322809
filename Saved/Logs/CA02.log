@@ -2650,3 +2650,376 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-17.30.26:713][346]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.15-17.30.26:736][347]LogPlayLevel: Display: Destroying online subsystem :Context_34
 [2024.10.15-17.30.26:745][347]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.34.54:074][727]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.10.15-17.36.46:498][860]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.36.46:547][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:548][860]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.46:916][860]LogUObjectHash: Compacting FUObjectHashTables data took  23.22ms
+[2024.10.15-17.36.47:956][911]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.36.47:964][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:964][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:964][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:965][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:965][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:965][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:965][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.47:965][911]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.36.48:038][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.10.15-17.36.48:896][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.36.49:185][955]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.36.49:186][955]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking371220834EAD0E6C4CB2DCA6C3BFFE6E.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.36.49:212][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 315 ms (total: 3.40 sec)
+[2024.10.15-17.36.49:236][955]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.36.49:237][955]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-17.37.23:017][577]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.15-17.37.23:039][577]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.15-17.37.23:051][577]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.15-17.37.23:051][577]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.15-17.37.23:052][577]LogWorldPartition: Display: GetPartitionedActors took 925 us (total: 2 ms)
+[2024.10.15-17.37.23:053][577]LogWorldPartition: Display: GenerateStreaming took 2 ms (total: 10 ms)
+[2024.10.15-17.37.23:059][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.15-17.37.23:068][577]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 4:37:23 AM)
+[2024.10.15-17.37.23:120][577]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-17.37.23:169][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049397s)
+[2024.10.15-17.37.23:169][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.050837s)
+[2024.10.15-17.37.23:172][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-17.37.23:177][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-17.37.23:182][577]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.15-17.37.23:198][577]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-17.37.23:198][577]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-17.37.23:198][577]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.15-17.37.23:201][577]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.15-17.37.23:207][577]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 547 ms)
+[2024.10.15-17.37.23:208][577]LogPlayLevel: PIE: World Init took: (0.037831s)
+[2024.10.15-17.37.23:269][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2024.10.15-17.37.23:281][577]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.10.15-17.37.23:285][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-17.37.23:285][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-17.37.23:285][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-17.37.23:285][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-17.37.23:285][577]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.15-17.37.23:286][577]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.15-17.37.23:286][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.15-17.37.23:286][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-17.37.23:290][577]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-17.37.23:290][577]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-17.37.23:290][577]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-17.37.23:297][577]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-17.37.23:463][577]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.15-17.37.23:467][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-17.37.23:467][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-17.37.23:468][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-17.37.23:475][577]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.10.15-17.37.23:475][577]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.10.15-17.37.23:478][577]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.10.15-17.37.23:478][577]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.10.15-17.37.23:481][577]LogInit: FAudioDevice initialized with ID 13.
+[2024.10.15-17.37.23:481][577]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.10.15-17.37.23:482][577]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.15-17.37.23:516][577]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-17.37.23:527][577]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.15-23.07.23
+[2024.10.15-17.37.23:529][577]LogWorld: Bringing up level for play took: 0.010506
+[2024.10.15-17.37.23:545][577]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.10.15-17.37.23:610][577]PIE: Server logged in
+[2024.10.15-17.37.23:612][577]PIE: Play in editor total start time 0.575 seconds.
+[2024.10.15-17.37.23:764][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:768][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:769][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:771][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:772][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:773][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:774][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:775][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:776][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:776][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:777][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:778][577]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:826][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:827][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:829][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:830][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:830][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:832][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:832][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:832][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:834][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:834][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:835][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.23:836][578]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.31:421][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-17.37.31:422][ 29]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-17.37.31:426][ 29]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-17.37.31:429][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-17.37.31:431][ 29]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.15-17.37.31:446][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.15-17.37.31:453][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-17.37.31:529][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-17.37.31:529][ 29]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.15-17.37.31:529][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.15-17.37.31:559][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.15-17.37.31:572][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-17.37.31:601][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2024.10.15-17.37.31:956][ 29]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.37.31:964][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.10.15-17.37.31:975][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.38.07:821][  3]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CA02/Animations/Jumping_Animation.Jumping_Animation
+[2024.10.15-17.38.07:831][  3]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/CA02/Animations/Jumping_Animation.Jumping_Animation
+[2024.10.15-17.38.07:979][  3]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2024.10.15-17.38.08:005][  3]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-17.38.08:005][  3]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-17.38.19:186][519]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.38.19:203][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:203][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:203][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:203][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:203][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:204][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:204][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:204][519]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.19:277][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2024.10.15-17.38.24:084][779]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/CA02/Animations/Jumping_Down.Jumping_Down
+[2024.10.15-17.38.25:728][860]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CA02/Animations/Run_Start_Animation.Run_Start_Animation
+[2024.10.15-17.38.25:729][860]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/CA02/Animations/Run_Start_Animation.Run_Start_Animation
+[2024.10.15-17.38.25:763][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-17.38.25:763][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-17.38.25:826][860]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-17.38.25:826][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-17.38.31:592][137]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/CA02/Animations/Jumping_Down.Jumping_Down
+[2024.10.15-17.38.31:629][137]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-17.38.31:631][137]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-17.38.31:705][137]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-17.38.31:705][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-17.38.44:050][777]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/CA02/Animations/Falling_Idle_Animation.Falling_Idle_Animation
+[2024.10.15-17.38.47:850][953]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.38.47:858][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:858][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:858][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:858][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:858][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:859][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:859][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:859][953]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.47:935][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.10.15-17.38.49:242][  6]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.38.49:251][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:251][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:251][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:251][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:251][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:252][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:252][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:252][  6]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Crouch to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.38.49:333][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.10.15-17.38.49:837][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.38.50:012][ 31]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.38.50:013][ 31]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking92CB8F0D4F6B4E6469B9D192C2D21EED.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.38.50:025][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 3.58 sec)
+[2024.10.15-17.38.50:073][ 31]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.38.50:073][ 31]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-17.39.20:958][442]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2024.10.15-17.39.20:968][442]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.069
+[2024.10.15-17.39.20:971][442]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CA02/Aniamtion_Blueprint/ABP_Walking] ([2] browsable assets)...
+[2024.10.15-17.39.20:972][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/CA02/Aniamtion_Blueprint/ABP_Walking]
+[2024.10.15-17.39.21:007][442]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CA02/Aniamtion_Blueprint/ABP_Walking_Auto2
+[2024.10.15-17.39.21:007][442]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking_Auto295EC90194093731603F2B2952E183CE9.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/Autosaves/Game/CA02/Aniamtion_Blueprint/ABP_Walking_Auto2.uasset'
+[2024.10.15-17.39.21:009][442]LogFileHelpers: Auto-saving content packages took 0.042
+[2024.10.15-17.39.30:101][742]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.39.30:109][742]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.30:109][742]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.30:109][742]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.30:109][742]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.30:109][742]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.30:208][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.10.15-17.39.31:185][794]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.39.31:359][794]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.39.31:360][794]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking32970012427C5A5A4AF7E3AC57254743.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.39.31:382][794]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 3.78 sec)
+[2024.10.15-17.39.31:391][794]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.39.31:391][794]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-17.39.31:703][812]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.39.31:711][812]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.31:711][812]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.31:711][812]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.31:711][812]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.31:711][812]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.39.31:777][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.10.15-17.40.46:392][ 68]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.40.46:405][ 68]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping_Up to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.40.46:406][ 68]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Falling Loop to Jumping Down  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.40.46:406][ 68]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.40.46:406][ 68]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.40.46:479][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2024.10.15-17.41.20:700][259]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.41.20:810][259]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Jumping Down to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.41.20:810][259]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.41.21:064][259]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2024.10.15-17.41.21:566][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.41.21:732][284]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.41.21:732][284]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingF2E6FC0D45504B08A23B519BC4562B82.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.41.21:753][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 3.97 sec)
+[2024.10.15-17.41.21:762][284]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.41.21:762][284]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-17.41.35:121][592]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.41.35:129][592]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Falling Loop  will never be taken, please connect something to  Can Enter Transition
+[2024.10.15-17.41.35:189][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.10.15-17.41.47:290][ 66]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.41.47:361][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.10.15-17.41.48:885][151]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.41.48:954][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.10.15-17.41.49:471][180]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.41.49:597][180]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.41.49:597][180]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking6B857CE04E3C277F7B76AD86E29C2133.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.41.49:614][180]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 4.11 sec)
+[2024.10.15-17.41.49:619][180]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.41.49:619][180]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-17.42.22:798][456]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.15-17.42.22:809][456]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.15-17.42.22:812][456]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.15-17.42.22:812][456]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.15-17.42.22:812][456]LogWorldPartition: Display: GetPartitionedActors took 20 us (total: 2 ms)
+[2024.10.15-17.42.22:812][456]LogWorldPartition: Display: GenerateStreaming took 197 us (total: 11 ms)
+[2024.10.15-17.42.22:812][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.15-17.42.22:814][456]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 4:42:22 AM)
+[2024.10.15-17.42.22:815][456]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-17.42.22:830][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014443s)
+[2024.10.15-17.42.22:830][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014859s)
+[2024.10.15-17.42.22:830][456]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-17.42.22:830][456]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-17.42.22:830][456]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.15-17.42.22:833][456]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-17.42.22:833][456]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-17.42.22:833][456]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.15-17.42.22:835][456]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.15-17.42.22:835][456]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 548 ms)
+[2024.10.15-17.42.22:835][456]LogPlayLevel: PIE: World Init took: (0.005566s)
+[2024.10.15-17.42.22:897][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.10.15-17.42.22:899][456]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.15-17.42.22:900][456]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.15-17.42.22:900][456]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-17.42.22:901][456]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-17.42.22:901][456]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-17.42.22:901][456]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-17.42.22:907][456]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-17.42.23:045][456]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.15-17.42.23:046][456]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-17.42.23:046][456]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-17.42.23:046][456]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-17.42.23:048][456]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.10.15-17.42.23:049][456]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.10.15-17.42.23:051][456]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.10.15-17.42.23:051][456]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.10.15-17.42.23:051][456]LogInit: FAudioDevice initialized with ID 14.
+[2024.10.15-17.42.23:051][456]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.10.15-17.42.23:051][456]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.15-17.42.23:064][456]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-17.42.23:068][456]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.15-23.12.23
+[2024.10.15-17.42.23:069][456]LogWorld: Bringing up level for play took: 0.004340
+[2024.10.15-17.42.23:075][456]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.10.15-17.42.23:083][456]PIE: Server logged in
+[2024.10.15-17.42.23:084][456]PIE: Play in editor total start time 0.274 seconds.
+[2024.10.15-17.42.23:169][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:170][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:171][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:172][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:174][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:175][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:176][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:177][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:178][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:179][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:181][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:183][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:214][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:214][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:215][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:217][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:218][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:218][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:219][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:220][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:220][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:221][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:221][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.23:221][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.27:876][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-17.42.27:876][734]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-17.42.27:877][734]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-17.42.27:877][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-17.42.27:878][734]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.15-17.42.27:885][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.15-17.42.27:891][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-17.42.27:947][734]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-17.42.27:947][734]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.15-17.42.27:948][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.15-17.42.27:951][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.15-17.42.27:958][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-17.42.27:968][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.10.15-17.42.28:009][734]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.42.28:020][735]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.10.15-17.42.28:032][735]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-17.43.07:067][732]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.43.07:135][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.10.15-17.43.08:332][794]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.43.08:397][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.10.15-17.43.09:563][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.10.15-17.43.10:347][857]LogSlate: Window 'Save Content' being destroyed
+[2024.10.15-17.43.10:378][857]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.43.10:665][857]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.43.10:666][857]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking04EB83EB417904474BEBB88C6FE5D833.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.43.10:686][857]LogFileHelpers: InternalPromptForCheckoutAndSave took 307 ms (total: 4.42 sec)
+[2024.10.15-17.43.10:749][857]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.43.10:750][857]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.15-17.44.05:649][997]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2024.10.15-17.44.05:664][997]LogContentBrowser: Creating deferred item: NewInterface
+[2024.10.15-17.44.05:725][998]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2024.10.15-17.44.22:333][992]LogContentBrowser: Attempting asset rename: NewInterface -> IBP_Animation
+[2024.10.15-17.44.22:396][992]LogContentBrowser: End creating deferred item NewInterface
+[2024.10.15-17.44.30:614][159]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.15-17.44.30:615][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-17.44.30:615][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-17.46.03:672][832]LogSlate: Took 0.012171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.10.15-17.46.40:098][989]BlueprintLog: New page: Compile IBP_Animation
+[2024.10.15-17.46.40:509][989]LogUObjectHash: Compacting FUObjectHashTables data took  10.40ms
+[2024.10.15-17.46.40:945][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.46.41:136][ 12]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/IBP_Animation
+[2024.10.15-17.46.41:136][ 12]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/IBP_Animation100C35BF4BB31B3177663C9AD0D4E930.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/IBP_Animation.uasset'
+[2024.10.15-17.46.41:183][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 4.66 sec)
+[2024.10.15-17.46.41:446][ 12]AssetCheck: New page: Asset Save: IBP_Animation
+[2024.10.15-17.46.41:447][ 12]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.15-17.47.03:592][220]Cmd: TRANSACTION UNDO
+[2024.10.15-17.47.03:592][220]LogEditorTransaction: Undo Add New Function
+[2024.10.15-17.47.03:638][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.04:121][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.04:238][220]Cmd: TRANSACTION UNDO
+[2024.10.15-17.47.04:238][220]LogEditorTransaction: Undo Add New Function
+[2024.10.15-17.47.04:250][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.04:444][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.04:892][221]Cmd: TRANSACTION UNDO
+[2024.10.15-17.47.04:892][221]LogEditorTransaction: Undo Rename Parameter
+[2024.10.15-17.47.04:908][221]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.05:067][221]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.05:196][222]Cmd: TRANSACTION UNDO
+[2024.10.15-17.47.05:196][222]LogEditorTransaction: Undo Add In Parameter
+[2024.10.15-17.47.05:209][222]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.05:371][222]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-17.47.08:320][224]LogSlate: Window 'Change Variable Type' being destroyed
+[2024.10.15-17.47.10:127][323]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.15-17.47.10:275][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.10.15-17.47.11:471][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-17.47.11:654][381]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.15-17.47.11:656][381]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingC45436054D19816253FE0CB304718748.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.15-17.47.11:681][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 4.86 sec)
+[2024.10.15-17.47.11:689][381]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.15-17.47.11:689][381]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
