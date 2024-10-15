@@ -5723,3 +5723,525 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-19.30.48:063][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 396 ms (total: 17.8 sec)
 [2024.10.15-19.30.48:074][506]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2024.10.15-19.30.48:074][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-19.35.25:407][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.15-19.35.25:458][567]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.15-19.35.25:474][567]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.15-19.35.25:476][567]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.15-19.35.25:476][567]LogWorldPartition: Display: GetPartitionedActors took 778 us (total: 13 ms)
+[2024.10.15-19.35.25:478][567]LogWorldPartition: Display: GenerateStreaming took 4 ms (total: 51 ms)
+[2024.10.15-19.35.25:491][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.15-19.35.25:502][567]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 6:35:25 AM)
+[2024.10.15-19.35.25:516][567]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.35.25:698][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.179687s)
+[2024.10.15-19.35.25:698][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.181325s)
+[2024.10.15-19.35.25:704][567]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-19.35.25:723][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-19.35.25:761][567]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.15-19.35.25:793][567]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-19.35.25:793][567]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-19.35.25:794][567]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.15-19.35.25:796][567]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.15-19.35.25:802][567]LogWorldPartition: Display: WorldPartition initialize took 10 ms (total: 653 ms)
+[2024.10.15-19.35.25:805][567]LogPlayLevel: PIE: World Init took: (0.107310s)
+[2024.10.15-19.35.26:180][567]LogUObjectHash: Compacting FUObjectHashTables data took  14.15ms
+[2024.10.15-19.35.26:204][567]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.15-19.35.26:210][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.15-19.35.26:210][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-19.35.26:217][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-19.35.26:217][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-19.35.26:217][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-19.35.26:235][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-19.35.26:567][567]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.15-19.35.26:587][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-19.35.26:587][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-19.35.26:588][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-19.35.26:598][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.10.15-19.35.26:598][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.10.15-19.35.26:605][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.10.15-19.35.26:605][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.10.15-19.35.26:605][567]LogInit: FAudioDevice initialized with ID 33.
+[2024.10.15-19.35.26:606][567]LogAudio: Display: Audio Device (ID: 33) registered with world 'ThirdPersonMap'.
+[2024.10.15-19.35.26:606][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.10.15-19.35.26:648][567]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-19.35.26:684][567]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.16-01.05.26
+[2024.10.15-19.35.26:689][567]LogWorld: Bringing up level for play took: 0.036741
+[2024.10.15-19.35.26:719][567]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2024.10.15-19.35.26:838][567]PIE: Server logged in
+[2024.10.15-19.35.26:842][567]PIE: Play in editor total start time 1.385 seconds.
+[2024.10.15-19.35.27:051][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:058][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:063][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:067][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:071][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:074][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:080][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:083][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:090][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:094][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:121][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:125][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:180][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:184][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:188][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:193][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:197][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:203][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:205][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:208][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:210][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:213][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:218][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.27:218][568]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.38:431][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.35.38:432][237]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.35.38:442][237]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-19.35.38:448][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.35.38:453][237]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.15-19.35.38:498][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.15-19.35.38:517][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.35.38:593][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.35.38:593][237]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.10.15-19.35.38:594][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.10.15-19.35.38:618][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.10.15-19.35.38:714][237]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.10.15-19.35.38:812][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.35.38:931][238]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2024.10.15-19.35.38:982][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.36.23:480][580]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/CL_Animation.fbx)
+[2024.10.15-19.36.23:527][580]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/CL_Animation.fbx
+[2024.10.15-19.36.23:554][580]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.36.28:006][580]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.36.28:088][580]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.36.28:089][580]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.36.28:090][580]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.36.28:091][580]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.36.28:095][580]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.36.28:961][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/CL_Animation.CL_Animation
+[2024.10.15-19.36.29:018][580]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/CL_Animation.CL_Animation, at AnimationSequence/e2d5f8326949a1f5b3cf6bae20de001359b07cb6
+[2024.10.15-19.36.29:060][580]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/CR_Animation.fbx)
+[2024.10.15-19.36.29:066][580]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/CR_Animation.fbx
+[2024.10.15-19.36.29:091][580]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.36.29:092][580]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.36.29:093][580]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.36.29:094][580]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.36.29:094][580]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.36.29:094][580]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.36.29:094][580]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.36.29:834][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/CR_Animation.CR_Animation
+[2024.10.15-19.36.29:885][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/CR_Animation.CR_Animation
+[2024.10.15-19.36.29:919][580]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/LW_Animation.fbx)
+[2024.10.15-19.36.29:925][580]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/CR_Animation.CR_Animation, at AnimationSequence/6b76293fb00b4441a7d02d6942aad49f9d938d26
+[2024.10.15-19.36.29:925][580]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/LW_Animation.fbx
+[2024.10.15-19.36.29:946][580]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.36.29:947][580]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.36.29:948][580]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.36.29:948][580]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.36.30:736][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/LW_Animation.LW_Animation
+[2024.10.15-19.36.30:790][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/LW_Animation.LW_Animation
+[2024.10.15-19.36.30:816][580]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/RW_Animation.fbx)
+[2024.10.15-19.36.30:822][580]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/LW_Animation.LW_Animation, at AnimationSequence/f852628ba1e2b047d8e8db155538e92b249d251c
+[2024.10.15-19.36.30:822][580]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Aniamtions/RW_Animation.fbx
+[2024.10.15-19.36.30:841][580]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(5) Head
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-19.36.30:843][580]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-19.36.30:844][580]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-19.36.30:844][580]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-19.36.30:844][580]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-19.36.30:844][580]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-19.36.30:844][580]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-19.36.31:450][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/RW_Animation.RW_Animation
+[2024.10.15-19.36.31:511][580]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Animations/RW_Animation.RW_Animation
+[2024.10.15-19.36.31:543][580]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Animations/RW_Animation.RW_Animation, at AnimationSequence/19ed464657b05c8ce7421aad92e93c2c7dce7cb9
+[2024.10.15-19.36.36:242][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.10.15-19.36.37:181][823]LogSlate: Window 'Save Content' being destroyed
+[2024.10.15-19.36.37:203][823]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.36.37:414][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CA02/Animations/CL_Animation" FILE="C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/CL_Animation.uasset" SILENT=true
+[2024.10.15-19.36.37:454][823]LogSavePackage: Moving output files for package: /Game/CA02/Animations/CL_Animation
+[2024.10.15-19.36.37:454][823]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/CL_Animation84FB99C84D504B6D8729F3ABE5E00E7F.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/CL_Animation.uasset'
+[2024.10.15-19.36.37:492][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CA02/Animations/CR_Animation" FILE="C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/CR_Animation.uasset" SILENT=true
+[2024.10.15-19.36.37:514][823]LogSavePackage: Moving output files for package: /Game/CA02/Animations/CR_Animation
+[2024.10.15-19.36.37:514][823]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/CR_Animation40E0D0F847C6AACF9B02BD96612769E0.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/CR_Animation.uasset'
+[2024.10.15-19.36.37:538][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CA02/Animations/LW_Animation" FILE="C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/LW_Animation.uasset" SILENT=true
+[2024.10.15-19.36.37:563][823]LogSavePackage: Moving output files for package: /Game/CA02/Animations/LW_Animation
+[2024.10.15-19.36.37:563][823]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/LW_Animation74433C9D414CF4F1D27BF58CA6CF0EA4.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/LW_Animation.uasset'
+[2024.10.15-19.36.37:584][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CA02/Animations/RW_Animation" FILE="C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/RW_Animation.uasset" SILENT=true
+[2024.10.15-19.36.37:603][823]LogSavePackage: Moving output files for package: /Game/CA02/Animations/RW_Animation
+[2024.10.15-19.36.37:603][823]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/RW_Animation4B11B1F042F5EDF4DF30B09E26EADB61.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Animations/RW_Animation.uasset'
+[2024.10.15-19.36.37:624][823]LogFileHelpers: InternalPromptForCheckoutAndSave took 420 ms (total: 18.2 sec)
+[2024.10.15-19.36.37:632][823]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.15-19.36.37:632][823]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/RW_Animation.RW_Animation
+[2024.10.15-19.36.37:632][823]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/LW_Animation.LW_Animation
+[2024.10.15-19.36.37:632][823]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/CR_Animation.CR_Animation
+[2024.10.15-19.36.37:632][823]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/CA02/Animations/CL_Animation.CL_Animation
+[2024.10.15-19.36.39:066][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.36.39:177][899]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking
+[2024.10.15-19.36.39:178][899]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_BlendSpcae_Walking0388BA3242B4F6815CD4B09A46688869.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.uasset'
+[2024.10.15-19.36.39:200][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 18.4 sec)
+[2024.10.15-19.36.39:207][899]AssetCheck: New page: Asset Save: ABP_BlendSpcae_Walking
+[2024.10.15-19.36.39:207][899]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.ABP_BlendSpcae_Walking
+[2024.10.15-19.37.10:155][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.37.10:289][680]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking
+[2024.10.15-19.37.10:290][680]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_BlendSpcae_Walking387288794BA9909FAEE2FE8CF4890B05.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.uasset'
+[2024.10.15-19.37.10:316][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 18.5 sec)
+[2024.10.15-19.37.10:326][680]AssetCheck: New page: Asset Save: ABP_BlendSpcae_Walking
+[2024.10.15-19.37.10:326][680]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.ABP_BlendSpcae_Walking
+[2024.10.15-19.37.12:195][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.15-19.37.12:206][787]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.15-19.37.12:208][787]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.15-19.37.12:208][787]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.15-19.37.12:208][787]LogWorldPartition: Display: GetPartitionedActors took 20 us (total: 13 ms)
+[2024.10.15-19.37.12:208][787]LogWorldPartition: Display: GenerateStreaming took 304 us (total: 51 ms)
+[2024.10.15-19.37.12:209][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.15-19.37.12:209][787]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 6:37:12 AM)
+[2024.10.15-19.37.12:211][787]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.37.12:217][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005444s)
+[2024.10.15-19.37.12:217][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005522s)
+[2024.10.15-19.37.12:217][787]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-19.37.12:218][787]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-19.37.12:218][787]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.15-19.37.12:220][787]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-19.37.12:220][787]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-19.37.12:220][787]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.15-19.37.12:221][787]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.15-19.37.12:221][787]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 655 ms)
+[2024.10.15-19.37.12:221][787]LogPlayLevel: PIE: World Init took: (0.004720s)
+[2024.10.15-19.37.12:260][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.10.15-19.37.12:265][787]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.15-19.37.12:265][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.15-19.37.12:265][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-19.37.12:266][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-19.37.12:267][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-19.37.12:267][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-19.37.12:270][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-19.37.12:398][787]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.15-19.37.12:398][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-19.37.12:398][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-19.37.12:398][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-19.37.12:401][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.10.15-19.37.12:401][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.10.15-19.37.12:404][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.10.15-19.37.12:404][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.10.15-19.37.12:404][787]LogInit: FAudioDevice initialized with ID 34.
+[2024.10.15-19.37.12:404][787]LogAudio: Display: Audio Device (ID: 34) registered with world 'ThirdPersonMap'.
+[2024.10.15-19.37.12:404][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.10.15-19.37.12:408][787]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-19.37.12:415][787]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.16-01.07.12
+[2024.10.15-19.37.12:416][787]LogWorld: Bringing up level for play took: 0.006397
+[2024.10.15-19.37.12:420][787]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2024.10.15-19.37.12:428][787]PIE: Server logged in
+[2024.10.15-19.37.12:430][787]PIE: Play in editor total start time 0.224 seconds.
+[2024.10.15-19.37.12:529][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:530][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:531][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:531][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:532][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:533][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:533][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:534][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:535][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:536][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:538][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:538][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:555][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:557][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:557][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:557][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:559][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:559][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:560][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:560][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:560][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:561][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:562][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.12:563][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.25:232][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.37.25:232][544]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.15-19.37.25:233][544]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-19.37.25:233][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.37.25:233][544]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.15-19.37.25:241][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.15-19.37.25:248][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-19.37.25:320][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-19.37.25:320][544]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.10.15-19.37.25:321][544]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.10.15-19.37.25:324][544]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.10.15-19.37.25:337][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.10.15-19.37.25:388][544]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.25:437][545]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2024.10.15-19.37.25:475][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.37.55:678][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.37.55:835][164]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking
+[2024.10.15-19.37.55:837][164]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_BlendSpcae_Walking4C22EDD949F8F014662FC5B865D50CFC.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.uasset'
+[2024.10.15-19.37.55:868][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 18.7 sec)
+[2024.10.15-19.37.55:876][164]AssetCheck: New page: Asset Save: ABP_BlendSpcae_Walking
+[2024.10.15-19.37.55:876][164]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpcae_Walking.ABP_BlendSpcae_Walking
+[2024.10.15-19.38.02:470][516]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_Crouch.ABP_Crouch
+[2024.10.15-19.38.19:260][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.10.15-19.38.20:140][415]LogSlate: Window 'Save Content' being destroyed
+[2024.10.15-19.38.20:163][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.38.20:363][415]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Crouch
+[2024.10.15-19.38.20:364][415]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_CrouchAE0CE090432669DBB951DA9A6592A195.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Crouch.uasset'
+[2024.10.15-19.38.20:395][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 18.9 sec)
+[2024.10.15-19.38.20:405][415]AssetCheck: New page: Asset Save: ABP_Crouch
+[2024.10.15-19.38.20:406][415]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_Crouch.ABP_Crouch
+[2024.10.15-19.38.21:443][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.38.21:590][470]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Crouch
+[2024.10.15-19.38.21:590][470]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Crouch67EE1CD047F610E51FA530B870AF9CBD.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Crouch.uasset'
+[2024.10.15-19.38.21:612][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 19.1 sec)
+[2024.10.15-19.38.21:620][470]AssetCheck: New page: Asset Save: ABP_Crouch
+[2024.10.15-19.38.21:620][470]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_Crouch.ABP_Crouch
