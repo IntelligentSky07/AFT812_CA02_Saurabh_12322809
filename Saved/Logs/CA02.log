@@ -1536,3 +1536,256 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-10.51.54:569][986]LogHttp: Warning: 00000B88F2854600: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
 [2024.10.15-10.51.54:570][986]LogHttp: Warning: 00000B88F2854600: libcurl info message cache 13 (Closing connection 1)
 [2024.10.15-10.51.54:570][986]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6FE7A704-440F-89B2-ABC3-6FBFBDA12BC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.15-10.52.50:316][557]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Characters/Swat_Character.fbx)
+[2024.10.15-10.52.50:665][557]LogFbx: Loading FBX Scene from ../../../../../Courses/Semester_3/AFT812 (Game Engines)/CA02/Characters/Swat_Character.fbx
+[2024.10.15-10.52.51:671][557]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.15-10.52.54:654][557]LogSlate: Took 0.000788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.15-10.52.55:193][557]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn_Simple) ...
+[2024.10.15-10.52.55:341][557]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.53.25:869][557]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.10.15-10.53.26:017][557]LogFbx: Valid bind pose for Pose (skinCluster3) - Ch15
+[2024.10.15-10.53.26:044][557]LogMaterial: Display: Material /Game/CA02/Characters/Ch15_body.Ch15_body needed to have new flag set bUsedWithSkeletalMesh !
+[2024.10.15-10.53.26:768][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.26:900][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1001_Diffuse.Ch15_1001_Diffuse (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.27:616][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.28:189][557]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.10.15-10.53.28:678][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1001_Specular.Ch15_1001_Specular (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.29:389][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.29:966][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1001_Glossiness.Ch15_1001_Glossiness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.30:466][557]LogMaterial: Display: Material /Game/CA02/Characters/Ch15_body1.Ch15_body1 needed to have new flag set bUsedWithSkeletalMesh !
+[2024.10.15-10.53.31:258][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1001_Normal.Ch15_1001_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.32:052][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.32:675][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.33:232][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1002_Diffuse.Ch15_1002_Diffuse (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.33:310][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.34:053][557]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.10.15-10.53.34:750][557]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.10.15-10.53.35:296][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1002_Emissive.Ch15_1002_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.35:998][557]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.10.15-10.53.36:714][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1002_Specular.Ch15_1002_Specular (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.36:807][557]LogFbx: Triangulating skeletal mesh Ch15
+[2024.10.15-10.53.37:919][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1002_Glossiness.Ch15_1002_Glossiness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.39:090][557]LogTexture: Display: Building textures: /Game/CA02/Characters/Ch15_1002_Normal.Ch15_1002_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.15-10.53.39:717][557]LogFbx: Bones digested - 65  Depth of hierarchy - 12
+[2024.10.15-10.53.41:908][557]LogSkeletalMesh: Section 0: Material=0, 13456 triangles
+[2024.10.15-10.53.41:908][557]LogSkeletalMesh: Section 1: Material=1, 32845 triangles
+[2024.10.15-10.53.42:374][557]LogSkeletalMesh: Building Skeletal Mesh Swat_Character...
+[2024.10.15-10.53.42:414][557]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Swat_Character) ...
+[2024.10.15-10.53.42:432][557]LogShaderCompilers: Display: ================================================
+[2024.10.15-10.53.42:432][557]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.15-10.53.42:432][557]LogShaderCompilers: Display: Total job queries 3,615, among them cache hits 3 (0.08%)
+[2024.10.15-10.53.42:432][557]LogShaderCompilers: Display: Tracking 3,604 distinct input hashes that result in 2,523 distinct outputs (70.01%)
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: RAM used: 60.18 MiB of 409.60 MiB budget. Usage: 14.69%
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Shaders Compiled: 3,604
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Jobs assigned 3,604, completed 3,604 (100.00%)
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Average time worker was idle: 3.50 s
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Time job spent in pending queue: average 157.89 s, longest 337.91 s
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Job execution time: average 8.86 s, max 28.63 s
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Job life time (pending + execution): average 166.75 s, max 348.51
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 404.03 s
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Jobs were issued in 465 batches (only local compilation was used), average 7.75 jobs/batch
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Average processing rate: 8.92 jobs/sec
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Total thread time: 3,361.072 s
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Total thread preprocess time: 102.244 s
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Percentage time preprocessing: 3.04%
+[2024.10.15-10.53.42:433][557]LogShaderCompilers: Display: Effective parallelization: 8.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.15-10.53.42:440][557]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 7.67 sec, max 11.33 sec, min 2.53 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.46 sec, max 12.59 sec, min 2.63 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 4.31 sec, max 4.31 sec, min 4.31 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   34 times, average 3.30 sec, max 6.40 sec, min 1.80 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    1 times, average 3.20 sec, max 3.20 sec, min 3.20 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.48% of total time (compiled  150 times, average 2.57 sec, max 6.30 sec, min 1.74 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.78% of total time (compiled   96 times, average 1.67 sec, max 2.82 sec, min 1.11 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.23% of total time (compiled  128 times, average 1.11 sec, max 2.24 sec, min 0.57 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.03% of total time (compiled  128 times, average 1.06 sec, max 1.83 sec, min 0.68 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.97% of total time (compiled   96 times, average 1.39 sec, max 2.02 sec, min 0.57 sec)
+[2024.10.15-10.53.42:441][557]LogShaderCompilers: Display: ================================================
+[2024.10.15-10.53.43:463][557]LogSkeletalMesh: Built Skeletal Mesh [1.09s] /Game/CA02/Characters/Swat_Character.Swat_Character
+[2024.10.15-10.53.44:094][557]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.53.44:120][557]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-10.53.44:252][557]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-10.53.44:263][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-10.53.44:390][557]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(5) Head
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(0) Hips
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(1) Spine
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(2) Spine1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(3) Spine2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(4) Neck
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(5) Head
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(8) LeftArm
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(10) LeftHand
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.10.15-10.53.44:391][557]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(31) RightShoulder
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(32) RightArm
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(33) RightForeArm
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(34) RightHand
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(56) LeftLeg
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(57) LeftFoot
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(61) RightLeg
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(62) RightFoot
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(63) RightToeBase
+[2024.10.15-10.53.44:392][557]LogFbx: SortedLinks :(64) RightToe_End
+[2024.10.15-10.53.44:397][557]LogFbx: Parsing AnimStack Take 001
+[2024.10.15-10.53.44:402][557]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.15-10.53.45:304][557]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/CA02/Characters/Swat_Character_Anim_mixamo_com.Swat_Character_Anim_mixamo_com
+[2024.10.15-10.53.45:329][557]LogAnimationCompression: Display: Storing compressed animation data for /Game/CA02/Characters/Swat_Character_Anim_mixamo_com.Swat_Character_Anim_mixamo_com, at AnimationSequence/721bce2bcc8c35950e5fdbaf6a122530254e5966
+[2024.10.15-10.53.45:330][557]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Swat_Character) ...
+[2024.10.15-10.53.45:438][557]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.10.15-10.53.45:439][557]FBXImport: Error: Animation length 9.08 is not compatible with import frame-rate 30 fps (sub frame 0.4), animation has to be frame-border aligned. Either re-export animation or enable snap to closest frame boundary import option. 
+[2024.10.15-10.53.46:687][558]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.53.46:846][559]LogHttp: Warning: 00000B88E7EECD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6FE7A704-440F-89B2-ABC3-6FBFBDA12BC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 1 (  Trying 3.83.72.12:443...)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.83.72.12) port 443 (#2))
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.15-10.53.46:847][559]LogHttp: Warning: 00000B88E7EECD00: libcurl info message cache 13 (Closing connection 2)
+[2024.10.15-10.53.46:860][559]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6FE7A704-440F-89B2-ABC3-6FBFBDA12BC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.15-10.53.48:486][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.53.48:516][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.53.48:650][610]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.53.53:877][847]LogSlate: Window 'Content Browser' being destroyed
+[2024.10.15-10.53.53:923][847]LogSlate: Window 'Content Browser' being destroyed
+[2024.10.15-10.54.11:987][287]LogSlate: Window 'Message Log' being destroyed
+[2024.10.15-10.54.11:997][287]LogSlate: Window 'Message Log' being destroyed
+[2024.10.15-10.54.20:813][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-10.54.20:950][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-10.54.47:054][963]LogHttp: Warning: 00000B88F76E2300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6FE7A704-440F-89B2-ABC3-6FBFBDA12BC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 1 (  Trying 34.206.224.168:443...)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.206.224.168) port 443 (#3))
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: 00000B88F76E2300: libcurl info message cache 13 (Closing connection 3)
+[2024.10.15-10.54.47:055][963]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6FE7A704-440F-89B2-ABC3-6FBFBDA12BC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
