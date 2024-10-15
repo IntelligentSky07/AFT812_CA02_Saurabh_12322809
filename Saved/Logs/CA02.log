@@ -3088,3 +3088,76 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-18.00.15:511][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 6.28 sec)
 [2024.10.15-18.00.15:521][144]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2024.10.15-18.00.15:521][144]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.02.45:506][917]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.02.45:531][917]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] Approach with Increment  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.10.15-18.02.45:532][917]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] Approach with Increment  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.10.15-18.02.45:663][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.10.15-18.02.46:393][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.02.46:542][951]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.02.46:542][951]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter645BEAED47DCBA34A0A3E382A42D3F8C.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.02.46:562][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 6.45 sec)
+[2024.10.15-18.02.46:571][951]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.02.46:571][951]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.03.04:701][875]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.03.04:834][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.10.15-18.03.05:536][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.03.05:662][907]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.03.05:663][907]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacterCD7A43A74305B1643BA947B2E34C02AA.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.03.05:681][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 6.59 sec)
+[2024.10.15-18.03.05:688][907]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.03.05:688][907]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.03.14:308][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.03.14:455][412]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.03.14:455][412]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacterD3774FC14522A9450B46AC9AE2E9D7F3.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.03.14:478][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 6.76 sec)
+[2024.10.15-18.03.14:486][412]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.03.14:487][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.04.14:199][893]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.04.14:308][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.10.15-18.04.14:936][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.04.15:071][920]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.04.15:071][920]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacterCFB6A18B4623FA7A2BE27783681018ED.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.04.15:092][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 6.92 sec)
+[2024.10.15-18.04.15:101][920]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.04.15:101][920]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.04.40:554][577]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.04.40:657][577]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2024.10.15-18.04.41:264][606]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.04.41:428][606]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.04.41:428][606]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter6E36A4574518E60E6DBF3DBECDDCD0DD.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.04.41:453][606]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 7.11 sec)
+[2024.10.15-18.04.41:465][606]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.04.41:465][606]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.05.04:525][280]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.05.04:653][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.10.15-18.05.05:105][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.05.05:292][295]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.05.05:293][295]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter95A69F0F42BD8F61DE13E5963487764E.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.05.05:314][295]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 7.32 sec)
+[2024.10.15-18.05.05:334][295]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.05.05:334][295]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.05.26:924][255]BlueprintLog: New page: Compile IBP_Animation
+[2024.10.15-18.05.27:084][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.10.15-18.05.27:512][277]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.05.27:613][277]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/IBP_Animation
+[2024.10.15-18.05.27:614][277]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/IBP_Animation955853674A455E9D3932588CCC677711.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/IBP_Animation.uasset'
+[2024.10.15-18.05.27:641][277]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 7.45 sec)
+[2024.10.15-18.05.27:650][277]AssetCheck: New page: Asset Save: IBP_Animation
+[2024.10.15-18.05.27:650][277]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.15-18.05.34:069][604]LogDerivedDataCache: C:/Users/SAURABH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:34.881 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 17720 files in 19665 folders with total size 2971 MiB.
+[2024.10.15-18.06.20:957][109]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.06.21:066][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.10.15-18.06.21:639][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.06.21:801][136]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.06.21:801][136]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter993DA1B845B44CFD253FAF98B0E6C371.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.06.21:831][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 7.64 sec)
+[2024.10.15-18.06.21:840][136]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.06.21:840][136]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.09.36:051][ 48]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.15-18.09.36:210][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.10.15-18.09.37:492][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-18.09.37:694][108]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.15-18.09.37:695][108]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter10427AB84DC977598FEED5A6158DF558.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.15-18.09.37:725][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 7.87 sec)
+[2024.10.15-18.09.37:732][108]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.15-18.09.37:732][108]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
