@@ -2914,3 +2914,56 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-11.19.03:046][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 1.28 sec)
 [2024.10.15-11.19.03:052][238]AssetCheck: New page: Asset Save: ABP_Character
 [2024.10.15-11.19.03:052][238]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Character.ABP_Character
+[2024.10.15-11.19.26:185][423]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Character.ABP_Character
+[2024.10.15-11.19.26:192][423]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-11.19.26:192][423]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-11.19.26:305][423]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-11.19.26:305][423]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-11.19.26:423][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.15-11.19.26:983][423]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-11.19.26:983][423]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.15-11.19.27:222][423]LogSlate: Took 0.000857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.10.15-11.19.27:235][423]LogViewport: Scene viewport resized to 308x227, mode Windowed.
+[2024.10.15-11.19.27:357][423]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.10.15-11.19.28:954][491]LogViewport: Scene viewport resized to 307x238, mode Windowed.
+[2024.10.15-11.19.29:085][493]LogViewport: Scene viewport resized to 197x121, mode Windowed.
+[2024.10.15-11.19.29:143][494]LogViewport: Scene viewport resized to 195x118, mode Windowed.
+[2024.10.15-11.19.29:279][501]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2024.10.15-11.19.29:669][524]LogSlate: Window 'ABP_Character' being destroyed
+[2024.10.15-11.19.29:689][524]LogViewport: Scene viewport resized to 476x431, mode Windowed.
+[2024.10.15-11.19.29:720][525]LogViewport: Scene viewport resized to 476x424, mode Windowed.
+[2024.10.15-11.19.29:768][526]LogViewport: Scene viewport resized to 476x416, mode Windowed.
+[2024.10.15-11.19.29:797][527]LogViewport: Scene viewport resized to 476x410, mode Windowed.
+[2024.10.15-11.19.29:821][528]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2024.10.15-11.19.51:549][324]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.10.15-11.19.51:572][324]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2024.10.15-11.19.51:593][324]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2024.10.15-11.19.51:623][325]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2024.10.15-11.19.56:030][588]LogHttp: Warning: 00000785458B9B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF8F9ED7E-4809-652D-86EC-068E9E3C7A9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 1 (  Trying 34.225.116.34:443...)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.116.34) port 443 (#12))
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: 00000785458B9B00: libcurl info message cache 13 (Closing connection 12)
+[2024.10.15-11.19.56:031][588]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF8F9ED7E-4809-652D-86EC-068E9E3C7A9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.15-11.20.00:962][883]LogContentBrowser: Attempting asset rename: NewBlendSpace -> ABP_BlendSpace_Walking
+[2024.10.15-11.20.00:974][883]LogContentBrowser: End creating deferred item NewBlendSpace
+[2024.10.15-11.20.00:975][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-11.20.04:239][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.10.15-11.20.05:121][ 72]LogSlate: Window 'Save Content' being destroyed
+[2024.10.15-11.20.05:138][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-11.20.05:328][ 72]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Walking
+[2024.10.15-11.20.05:328][ 72]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_BlendSpace_WalkingC15EBBE94A8F5244E1BBC9A6E69C17BA.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Walking.uasset'
+[2024.10.15-11.20.05:351][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 1.49 sec)
+[2024.10.15-11.20.05:360][ 72]AssetCheck: New page: Asset Save: ABP_BlendSpace_Walking
+[2024.10.15-11.20.05:360][ 72]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_BlendSpace_Walking.ABP_BlendSpace_Walking
