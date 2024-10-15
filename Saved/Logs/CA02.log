@@ -3161,3 +3161,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-18.09.37:725][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 7.87 sec)
 [2024.10.15-18.09.37:732][108]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2024.10.15-18.09.37:732][108]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.15-18.10.28:775][351]LogViewport: Scene viewport resized to 753x888, mode Windowed.
+[2024.10.15-18.10.28:844][351]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-18.10.46:169][256]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.10.15-18.10.46:187][256]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.10.15-18.10.46:209][257]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.10.15-18.10.50:217][490]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Crouch
+[2024.10.15-18.10.50:260][490]LogContentBrowser: End creating deferred item NewInputAction
+[2024.10.15-18.10.52:115][584]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Crouch.IA_Crouch
+[2024.10.15-18.11.16:221][308]LogAnalytics: Warning: EventCache either took too long to flush (1.623 ms) or had a very large payload (0.546 KB, 2 events). Listing events in the payload for investigation:
+[2024.10.15-18.11.16:226][308]LogAnalytics: Warning:     Editor.Usage.Heartbeat,432
+[2024.10.15-18.11.16:227][308]LogAnalytics: Warning:     Editor.Usage.CreateAsset,114
