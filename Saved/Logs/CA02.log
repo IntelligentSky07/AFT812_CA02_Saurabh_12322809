@@ -7416,3 +7416,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-19.54.50:642][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.15-19.54.50:665][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_101
 [2024.10.15-19.54.50:694][ 95]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.15-19.55.40:563][702]LogViewport: Scene viewport resized to 1209x867, mode Windowed.
+[2024.10.15-19.56.06:105][150]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/CA02/Aniamtion_Blueprint/ABP_Crouch.ABP_Crouch
+[2024.10.15-19.56.32:856][326]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.10.15-19.56.32:901][326]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2024.10.15-19.56.32:932][326]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2024.10.15-19.56.32:967][327]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2024.10.15-19.56.46:114][ 99]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> ABP_CrouchWalking
+[2024.10.15-19.56.46:138][ 99]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2024.10.15-19.56.52:628][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2024.10.15-19.56.53:458][473]LogSlate: Window 'Save Content' being destroyed
+[2024.10.15-19.56.53:506][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.15-19.56.53:695][473]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_CrouchWalking
+[2024.10.15-19.56.53:695][473]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_CrouchWalkingA34B433F44301BE8A48DDCA775F63506.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_CrouchWalking.uasset'
+[2024.10.15-19.56.53:730][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 22.5 sec)
+[2024.10.15-19.56.53:737][473]AssetCheck: New page: Asset Save: ABP_CrouchWalking
+[2024.10.15-19.56.53:737][473]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/CA02/Aniamtion_Blueprint/ABP_CrouchWalking.ABP_CrouchWalking
