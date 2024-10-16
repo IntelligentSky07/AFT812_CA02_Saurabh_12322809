@@ -1762,3 +1762,28 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.16-18.59.55:501][831]LogPlayLevel: Display: Destroying online subsystem :Context_15
 [2024.10.16-18.59.55:512][831]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.16-19.00.34:887][325]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.10.16-19.01.12:448][864]LogSlate: Took 0.007211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.16-19.01.19:255][487]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.01.19:323][488]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.01.30:777][152]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.16-19.01.30:844][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.01.33:026][152]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.10.16-19.01.33:042][152]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2024.10.16-19.01.33:054][152]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2024.10.16-19.01.33:079][153]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2024.10.16-19.01.44:180][229]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> ABP_Running
+[2024.10.16-19.01.44:188][229]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2024.10.16-19.01.46:149][370]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/CA02/Aniamtion_Blueprint/ABP_Running.ABP_Running
+[2024.10.16-19.01.57:218][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.02.58:163][221]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-19.02.58:163][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-19.02.58:250][221]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-19.02.58:251][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-19.03.02:854][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2024.10.16-19.03.04:329][492]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.16-19.03.04:455][492]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/CA02/Aniamtion_Blueprint/ABP_Running.ABP_Running
+	Asset Type: BlendSpace1D
+[2024.10.16-19.03.05:050][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.10.16-19.03.05:083][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.10.16-19.03.05:111][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
