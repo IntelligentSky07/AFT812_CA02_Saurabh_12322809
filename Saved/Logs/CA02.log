@@ -1750,3 +1750,20 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.16-06.14.22:656][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 1.16 sec)
 [2024.10.16-06.14.22:674][803]AssetCheck: New page: Asset Save: IMC_Default
 [2024.10.16-06.14.22:674][803]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2024.10.16-06.14.40:729][879]LogHttp: Warning: 0000040659DB4100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.14.40:729][879]LogHttp: Warning: 0000040659DB4100: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 1 (  Trying 52.21.97.175:443...)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.97.175) port 443 (#7))
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: 0000040659DB4100: libcurl info message cache 13 (Closing connection 7)
+[2024.10.16-06.14.40:730][879]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
