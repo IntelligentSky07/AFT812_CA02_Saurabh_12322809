@@ -4245,3 +4245,282 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.16-19.43.20:060][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.16-19.43.20:091][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_47
 [2024.10.16-19.43.20:129][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.48.14:418][ 95]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Devanshu's AirPods Pro), InstanceID=1
+[2024.10.16-19.48.14:585][ 95]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.48.15:924][ 99]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{795fe397-539c-4708-96f7-1bd11b2c22ad}, Name=Headphones (Devanshu's AirPods Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1127.45
+[2024.10.16-19.48.15:924][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.48.15:927][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.48.20:593][114]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.10.16-19.48.20:917][114]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.48.25:917][129]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2024.10.16-19.48.25:923][129]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=4996.80
+[2024.10.16-19.48.25:923][129]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.48.25:927][129]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.48.26:252][130]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.48.27:051][133]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Devanshu's AirPods Pro), InstanceID=1
+[2024.10.16-19.48.27:256][133]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=761.49
+[2024.10.16-19.48.27:256][133]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.48.27:259][133]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.48.27:585][134]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.48.28:258][136]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{795fe397-539c-4708-96f7-1bd11b2c22ad}, Name=Headphones (Devanshu's AirPods Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=429.12
+[2024.10.16-19.48.28:258][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.48.28:262][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.48.43:422][182]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.10.16-19.48.43:589][182]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.48.48:590][197]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2024.10.16-19.48.48:592][197]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=4684.22
+[2024.10.16-19.48.48:593][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.48.48:596][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.48.48:922][198]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.48.49:594][200]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=619.37
+[2024.10.16-19.48.49:594][200]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.48.49:597][200]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.49.20:010][292]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Devanshu's AirPods Pro), InstanceID=1
+[2024.10.16-19.49.20:260][292]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.49.20:603][293]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{795fe397-539c-4708-96f7-1bd11b2c22ad}, Name=Headphones (Devanshu's AirPods Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=306.64
+[2024.10.16-19.49.20:603][293]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.49.20:607][293]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.49.58:048][406]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.10.16-19.49.58:271][406]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.50.03:271][421]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2024.10.16-19.50.03:608][422]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=5175.25
+[2024.10.16-19.50.03:608][422]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.50.03:610][422]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.50.03:939][423]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.50.04:611][425]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=620.62
+[2024.10.16-19.50.04:611][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.50.04:615][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.52.07:082][793]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Devanshu's AirPods Pro), InstanceID=1
+[2024.10.16-19.52.07:296][793]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.52.07:637][794]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{795fe397-539c-4708-96f7-1bd11b2c22ad}, Name=Headphones (Devanshu's AirPods Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=308.65
+[2024.10.16-19.52.07:637][794]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.52.07:643][794]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.52.44:336][905]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.10.16-19.52.44:638][905]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.52.49:307][919]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=4600.60
+[2024.10.16-19.52.49:308][919]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.52.49:310][919]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.52.56:823][942]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Devanshu's AirPods Pro), InstanceID=1
+[2024.10.16-19.52.56:972][942]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.52.57:644][944]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{795fe397-539c-4708-96f7-1bd11b2c22ad}, Name=Headphones (Devanshu's AirPods Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=385.22
+[2024.10.16-19.52.57:644][944]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.52.57:655][944]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.52.59:292][949]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.10.16-19.52.59:309][949]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.53.04:309][964]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2024.10.16-19.53.04:645][965]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=5192.24
+[2024.10.16-19.53.04:645][965]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.53.04:648][965]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.53.04:976][966]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.53.05:011][967]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Devanshu's AirPods Pro), InstanceID=1
+[2024.10.16-19.53.05:978][969]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=858.94
+[2024.10.16-19.53.05:978][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.53.05:981][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.53.06:309][970]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.53.06:990][972]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{795fe397-539c-4708-96f7-1bd11b2c22ad}, Name=Headphones (Devanshu's AirPods Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=369.91
+[2024.10.16-19.53.06:990][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.53.06:993][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.54.22:684][200]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.10.16-19.54.23:003][200]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.54.28:004][215]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2024.10.16-19.54.28:011][215]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=4701.00
+[2024.10.16-19.54.28:011][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.54.28:015][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.54.28:342][216]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17520
+[2024.10.16-19.54.29:347][219]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79ed4745-92b8-49d4-997a-1d8d6623f33d}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=697.04
+[2024.10.16-19.54.29:347][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.16-19.54.29:353][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.16-19.54.46:208][463]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-19.54.46:218][463]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-19.54.46:221][463]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.16-19.54.46:221][463]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.16-19.54.46:221][463]LogWorldPartition: Display: GetPartitionedActors took 79 us (total: 3 ms)
+[2024.10.16-19.54.46:221][463]LogWorldPartition: Display: GenerateStreaming took 654 us (total: 11 ms)
+[2024.10.16-19.54.46:222][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-19.54.46:222][463]PIE: New page: PIE session: ThirdPersonMap (Oct 17, 2024, 6:54:46 AM)
+[2024.10.16-19.54.46:223][463]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-19.54.46:231][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006321s)
+[2024.10.16-19.54.46:231][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006386s)
+[2024.10.16-19.54.46:231][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.54.46:231][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-19.54.46:232][463]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.16-19.54.46:233][463]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-19.54.46:233][463]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-19.54.46:233][463]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.16-19.54.46:234][463]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.16-19.54.46:234][463]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.50 sec)
+[2024.10.16-19.54.46:234][463]LogPlayLevel: PIE: World Init took: (0.003960s)
+[2024.10.16-19.54.46:271][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.10.16-19.54.46:273][463]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.16-19.54.46:273][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-19.54.46:273][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-19.54.46:275][463]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-19.54.46:275][463]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-19.54.46:275][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-19.54.46:277][463]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-19.54.46:401][463]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-19.54.46:402][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-19.54.46:402][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-19.54.46:402][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-19.54.46:404][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.10.16-19.54.46:404][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.10.16-19.54.46:407][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.10.16-19.54.46:407][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.10.16-19.54.46:408][463]LogInit: FAudioDevice initialized with ID 28.
+[2024.10.16-19.54.46:408][463]LogAudio: Display: Audio Device (ID: 28) registered with world 'ThirdPersonMap'.
+[2024.10.16-19.54.46:408][463]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.10.16-19.54.46:413][463]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.16-19.54.46:415][463]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.17-01.24.46
+[2024.10.16-19.54.46:416][463]LogWorld: Bringing up level for play took: 0.002755
+[2024.10.16-19.54.46:421][463]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.10.16-19.54.46:424][463]PIE: Server logged in
+[2024.10.16-19.54.46:425][463]PIE: Play in editor total start time 0.207 seconds.
+[2024.10.16-19.54.46:505][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:506][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:506][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:507][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:507][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:508][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:509][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:509][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:509][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:510][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:512][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:512][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:528][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:530][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:530][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:532][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:533][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:533][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:534][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:534][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:534][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:535][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:536][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.46:536][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.54.47:725][536]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-19.54.52:577][827]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-19.54.54:804][960]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-19.55.01:327][351]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-19.55.02:874][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-19.55.02:874][442]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-19.55.02:874][442]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-19.55.02:875][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-19.55.02:875][442]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.16-19.55.02:882][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-19.55.02:889][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-19.55.02:947][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-19.55.02:947][442]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.10.16-19.55.02:947][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.10.16-19.55.02:949][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.10.16-19.55.02:960][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.10.16-19.55.03:007][442]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.03:030][443]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.10.16-19.55.03:067][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.10:850][900]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.16-19.55.10:943][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2024.10.16-19.55.12:398][979]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-19.55.12:410][979]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-19.55.12:412][979]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.16-19.55.12:412][979]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.16-19.55.12:412][979]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 3 ms)
+[2024.10.16-19.55.12:412][979]LogWorldPartition: Display: GenerateStreaming took 190 us (total: 11 ms)
+[2024.10.16-19.55.12:413][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-19.55.12:413][979]PIE: New page: PIE session: ThirdPersonMap (Oct 17, 2024, 6:55:12 AM)
+[2024.10.16-19.55.12:414][979]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-19.55.12:422][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007865s)
+[2024.10.16-19.55.12:422][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007934s)
+[2024.10.16-19.55.12:422][979]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.55.12:422][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-19.55.12:422][979]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.16-19.55.12:423][979]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-19.55.12:423][979]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-19.55.12:423][979]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.16-19.55.12:424][979]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.16-19.55.12:424][979]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.50 sec)
+[2024.10.16-19.55.12:424][979]LogPlayLevel: PIE: World Init took: (0.002912s)
+[2024.10.16-19.55.12:455][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.10.16-19.55.12:458][979]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.16-19.55.12:458][979]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-19.55.12:458][979]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-19.55.12:459][979]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-19.55.12:459][979]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-19.55.12:459][979]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-19.55.12:463][979]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-19.55.12:591][979]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-19.55.12:593][979]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-19.55.12:593][979]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-19.55.12:593][979]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-19.55.12:595][979]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.10.16-19.55.12:595][979]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.10.16-19.55.12:597][979]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.10.16-19.55.12:597][979]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.10.16-19.55.12:597][979]LogInit: FAudioDevice initialized with ID 29.
+[2024.10.16-19.55.12:597][979]LogAudio: Display: Audio Device (ID: 29) registered with world 'ThirdPersonMap'.
+[2024.10.16-19.55.12:597][979]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.10.16-19.55.12:601][979]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.16-19.55.12:604][979]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.17-01.25.12
+[2024.10.16-19.55.12:604][979]LogWorld: Bringing up level for play took: 0.002729
+[2024.10.16-19.55.12:608][979]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.10.16-19.55.12:612][979]PIE: Server logged in
+[2024.10.16-19.55.12:613][979]PIE: Play in editor total start time 0.204 seconds.
+[2024.10.16-19.55.12:686][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:687][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:688][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:688][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:689][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:689][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:690][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:690][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:690][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:690][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:692][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:692][979]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:710][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:711][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:711][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:713][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:714][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:714][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:714][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:715][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:715][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:716][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:717][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.12:718][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.13:470][ 26]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-19.55.20:793][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-19.55.20:793][463]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-19.55.20:794][463]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-19.55.20:794][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-19.55.20:794][463]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.16-19.55.20:800][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-19.55.20:807][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-19.55.20:850][463]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.16-19.55.20:850][463]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.10.16-19.55.20:850][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.10.16-19.55.20:852][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.10.16-19.55.20:859][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-19.55.20:865][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2024.10.16-19.55.20:919][463]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.20:946][464]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.10.16-19.55.20:986][464]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-19.55.45:909][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.55.46:072][938]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.16-19.55.46:074][938]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter22EA61794F38CD820130AFA6F698FC36.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.16-19.55.46:106][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 6.91 sec)
+[2024.10.16-19.55.46:117][938]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.16-19.55.46:117][938]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
