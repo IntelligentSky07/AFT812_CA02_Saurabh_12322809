@@ -1830,3 +1830,44 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.16-19.06.09:610][182]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 995 ms)
 [2024.10.16-19.06.09:615][182]AssetCheck: New page: Asset Save: ABP_Walking
 [2024.10.16-19.06.09:615][182]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.16-19.06.31:505][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.06.31:658][523]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.16-19.06.31:658][523]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingA382258C4E8630676465098E7973D60E.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.16-19.06.31:669][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 1.15 sec)
+[2024.10.16-19.06.31:675][523]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.16-19.06.31:675][523]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.16-19.06.54:173][143]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.16-19.06.54:265][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.10.16-19.06.55:158][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.06.55:303][204]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.16-19.06.55:304][204]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacter1C719B45492ECE3C80F6FDB5D1B9F7E1.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.16-19.06.55:319][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 1.32 sec)
+[2024.10.16-19.06.55:326][204]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.16-19.06.55:326][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.16-19.07.05:119][ 28]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.16-19.07.05:120][ 28]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-19.07.05:127][ 28]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-19.07.23:796][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.07.23:894][150]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/IBP_Animation
+[2024.10.16-19.07.23:895][150]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/IBP_AnimationD7B11234494326832ED66196BAEC0210.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/IBP_Animation.uasset'
+[2024.10.16-19.07.23:922][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 1.44 sec)
+[2024.10.16-19.07.23:929][150]AssetCheck: New page: Asset Save: IBP_Animation
+[2024.10.16-19.07.23:929][150]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.16-19.07.24:217][179]BlueprintLog: New page: Compile IBP_Animation
+[2024.10.16-19.07.24:329][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.10.16-19.07.24:947][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.07.25:047][241]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/IBP_Animation
+[2024.10.16-19.07.25:047][241]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/IBP_Animation66B64C504E6C46D983AD0EBE2F515FA5.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/IBP_Animation.uasset'
+[2024.10.16-19.07.25:062][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 1.56 sec)
+[2024.10.16-19.07.25:069][241]AssetCheck: New page: Asset Save: IBP_Animation
+[2024.10.16-19.07.25:069][241]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/IBP_Animation.IBP_Animation
+[2024.10.16-19.07.43:673][756]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.16-19.07.43:780][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.10.16-19.08.17:549][423]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.16-19.08.17:651][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.10.16-19.08.18:323][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.08.18:478][467]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.16-19.08.18:478][467]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacterD1B2C90F43653698019DE5B8D04C49BF.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.16-19.08.18:490][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 1.72 sec)
+[2024.10.16-19.08.18:499][467]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.16-19.08.18:499][467]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
