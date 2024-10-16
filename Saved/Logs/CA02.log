@@ -1787,3 +1787,46 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.16-19.03.05:050][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
 [2024.10.16-19.03.05:083][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
 [2024.10.16-19.03.05:111][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.16-19.04.39:198][433]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.10.16-19.04.55:815][684]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.16-19.04.55:840][684]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Running  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.04.55:841][684]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Running to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.04.55:920][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.10.16-19.04.56:684][730]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.16-19.04.56:698][730]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Running  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.04.56:698][730]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Running to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.04.56:760][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2024.10.16-19.04.57:432][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.04.57:555][770]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.16-19.04.57:556][770]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking7489A49E423EF174607801B6F24C3077.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.16-19.04.57:575][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 506 ms)
+[2024.10.16-19.04.57:582][770]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.16-19.04.57:582][770]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.16-19.05.19:826][925]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.10.16-19.05.26:612][341]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.16-19.05.26:621][341]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Walking to Running  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.05.26:621][341]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Running to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.05.26:671][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.10.16-19.05.27:738][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.05.27:906][399]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.16-19.05.27:907][399]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking02B3786E490B6F9377A5CE8BA44EE7A4.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.16-19.05.27:917][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 686 ms)
+[2024.10.16-19.05.27:923][399]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.16-19.05.27:924][399]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.16-19.05.50:511][935]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.16-19.05.50:522][935]LogBlueprint: Warning: [AssetLog] C:\Users\SAURABH\Documents\GitHub\AFT812_CA02_Saurabh_12322809\Content\CA02\Aniamtion_Blueprint\ABP_Walking.uasset: [Compiler] Running to Walking  will never be taken, please connect something to  Can Enter Transition
+[2024.10.16-19.05.50:576][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.10.16-19.06.04:685][839]BlueprintLog: New page: Compile ABP_Walking
+[2024.10.16-19.06.04:750][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.10.16-19.06.05:473][888]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.06.05:633][888]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.16-19.06.05:633][888]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingAA694C3C439333E457C00E8ABC679634.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.16-19.06.05:651][888]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 864 ms)
+[2024.10.16-19.06.05:657][888]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.16-19.06.05:657][888]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
+[2024.10.16-19.06.09:479][182]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-19.06.09:599][182]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_Walking
+[2024.10.16-19.06.09:599][182]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_Walking427F43944C0BEF7751E5C8A6FE0AC512.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_Walking.uasset'
+[2024.10.16-19.06.09:610][182]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 995 ms)
+[2024.10.16-19.06.09:615][182]AssetCheck: New page: Asset Save: ABP_Walking
+[2024.10.16-19.06.09:615][182]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/CA02/Aniamtion_Blueprint/ABP_Walking.ABP_Walking
