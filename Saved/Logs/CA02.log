@@ -3577,3 +3577,471 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.16-06.34.24:604][272]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.16-06.34.24:631][273]LogPlayLevel: Display: Destroying online subsystem :Context_30
 [2024.10.16-06.34.24:655][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 1 (  Trying 54.211.210.40:443...)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.211.210.40) port 443 (#27))
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: 000004066B670F00: libcurl info message cache 13 (Closing connection 27)
+[2024.10.16-06.34.42:736][502]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.35.42:868][943]LogHttp: Warning: 0000040638868700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 1 (  Trying 18.209.54.31:443...)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.209.54.31) port 443 (#28))
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: 0000040638868700: libcurl info message cache 13 (Closing connection 28)
+[2024.10.16-06.35.42:871][943]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.36.42:639][435]LogHttp: Warning: 000004066D514100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.36.42:639][435]LogHttp: Warning: 000004066D514100: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.36.42:639][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.36.42:639][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 1 (  Trying 52.70.37.109:443...)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.70.37.109) port 443 (#29))
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: 000004066D514100: libcurl info message cache 13 (Closing connection 29)
+[2024.10.16-06.36.42:640][435]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 1 (  Trying 54.165.248.126:443...)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.248.126) port 443 (#30))
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: 000004065205A500: libcurl info message cache 13 (Closing connection 30)
+[2024.10.16-06.37.42:633][303]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.38.13:906][918]LogEditorTransaction: Undo Delete current selection
+[2024.10.16-06.38.14:227][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-06.38.21:507][319]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.16-06.38.21:797][319]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2024.10.16-06.38.22:310][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-06.38.22:494][338]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.16-06.38.22:495][338]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacterE5AF68024D360D60586239842A74BD56.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.16-06.38.22:513][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 6.21 sec)
+[2024.10.16-06.38.22:529][338]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.16-06.38.22:530][338]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.16-06.38.25:818][534]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.26:898][599]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-06.38.26:912][599]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-06.38.26:919][599]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.16-06.38.26:919][599]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.16-06.38.26:920][599]LogWorldPartition: Display: GetPartitionedActors took 532 us (total: 3 ms)
+[2024.10.16-06.38.26:920][599]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 13 ms)
+[2024.10.16-06.38.26:928][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-06.38.26:935][599]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 5:38:26 PM)
+[2024.10.16-06.38.26:941][599]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-06.38.26:970][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030097s)
+[2024.10.16-06.38.26:970][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.030236s)
+[2024.10.16-06.38.26:974][599]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-06.38.26:983][599]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-06.38.27:007][599]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.16-06.38.27:022][599]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-06.38.27:022][599]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-06.38.27:023][599]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.16-06.38.27:025][599]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.16-06.38.27:030][599]LogWorldPartition: Display: WorldPartition initialize took 8 ms (total: 1.25 sec)
+[2024.10.16-06.38.27:032][599]LogPlayLevel: PIE: World Init took: (0.061141s)
+[2024.10.16-06.38.27:076][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.10.16-06.38.27:086][599]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.16-06.38.27:088][599]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-06.38.27:089][599]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-06.38.27:092][599]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-06.38.27:092][599]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-06.38.27:092][599]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-06.38.27:098][599]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-06.38.27:130][599]LogAudioMixer: Display: Using Audio Hardware Device Headphones (OUD Power)
+[2024.10.16-06.38.27:135][599]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-06.38.27:135][599]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-06.38.27:136][599]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-06.38.27:141][599]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.10.16-06.38.27:142][599]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.10.16-06.38.27:144][599]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.10.16-06.38.27:144][599]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.10.16-06.38.27:144][599]LogInit: FAudioDevice initialized with ID 18.
+[2024.10.16-06.38.27:145][599]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonMap'.
+[2024.10.16-06.38.27:145][599]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.10.16-06.38.27:169][599]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.16-06.38.27:176][599]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.16-12.08.27
+[2024.10.16-06.38.27:178][599]LogWorld: Bringing up level for play took: 0.008110
+[2024.10.16-06.38.27:197][599]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.10.16-06.38.27:236][599]PIE: Server logged in
+[2024.10.16-06.38.27:237][599]PIE: Play in editor total start time 0.326 seconds.
+[2024.10.16-06.38.27:297][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:298][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:298][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:299][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:300][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:300][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:300][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:301][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:301][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:301][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:303][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:304][599]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:347][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:348][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:348][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:349][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:349][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:349][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:350][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:350][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:350][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:351][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:352][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.27:352][600]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.28:378][661]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-06.38.34:631][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-06.38.34:631][ 34]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-06.38.34:635][ 34]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-06.38.34:637][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-06.38.34:638][ 34]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.16-06.38.34:652][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-06.38.34:658][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-06.38.34:700][ 34]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.16-06.38.34:701][ 34]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.10.16-06.38.34:702][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.10.16-06.38.34:704][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.10.16-06.38.34:710][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-06.38.34:719][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.10.16-06.38.34:776][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.34:804][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.10.16-06.38.34:834][ 35]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.39:975][331]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.10.16-06.38.40:076][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.10.16-06.38.40:359][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-06.38.40:503][338]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.10.16-06.38.40:504][338]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/BP_ThirdPersonCharacterCED3E7374561C741FB1EE79E2C641570.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.10.16-06.38.40:521][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 6.38 sec)
+[2024.10.16-06.38.40:530][338]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.10.16-06.38.40:530][338]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.10.16-06.38.41:798][414]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-06.38.41:805][414]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-06.38.41:807][414]LogWorldPartition: Display: GenerateStreaming started...
+[2024.10.16-06.38.41:807][414]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.10.16-06.38.41:807][414]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 3 ms)
+[2024.10.16-06.38.41:807][414]LogWorldPartition: Display: GenerateStreaming took 210 us (total: 13 ms)
+[2024.10.16-06.38.41:808][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-06.38.41:808][414]PIE: New page: PIE session: ThirdPersonMap (Oct 16, 2024, 5:38:41 PM)
+[2024.10.16-06.38.41:808][414]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-06.38.41:813][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004625s)
+[2024.10.16-06.38.41:813][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004714s)
+[2024.10.16-06.38.41:813][414]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-06.38.41:813][414]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-06.38.41:814][414]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.10.16-06.38.41:814][414]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-06.38.41:815][414]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-06.38.41:815][414]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.10.16-06.38.41:815][414]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.10.16-06.38.41:815][414]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.26 sec)
+[2024.10.16-06.38.41:815][414]LogPlayLevel: PIE: World Init took: (0.002888s)
+[2024.10.16-06.38.41:850][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.10.16-06.38.41:857][414]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.10.16-06.38.41:857][414]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-06.38.41:857][414]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-06.38.41:857][414]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-06.38.41:858][414]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-06.38.41:858][414]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-06.38.41:860][414]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-06.38.41:892][414]LogAudioMixer: Display: Using Audio Hardware Device Headphones (OUD Power)
+[2024.10.16-06.38.41:892][414]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-06.38.41:892][414]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-06.38.41:892][414]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-06.38.41:894][414]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.10.16-06.38.41:894][414]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.10.16-06.38.41:896][414]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.10.16-06.38.41:896][414]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.10.16-06.38.41:896][414]LogInit: FAudioDevice initialized with ID 19.
+[2024.10.16-06.38.41:896][414]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2024.10.16-06.38.41:896][414]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.16-06.38.41:899][414]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.16-06.38.41:901][414]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.10.16-12.08.41
+[2024.10.16-06.38.41:902][414]LogWorld: Bringing up level for play took: 0.001958
+[2024.10.16-06.38.41:904][414]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.10.16-06.38.41:907][414]PIE: Server logged in
+[2024.10.16-06.38.41:908][414]PIE: Play in editor total start time 0.102 seconds.
+[2024.10.16-06.38.41:963][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:964][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:965][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:965][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:965][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:965][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:967][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:967][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:967][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:967][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:968][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:968][414]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:981][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:982][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:982][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:982][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:983][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:983][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:983][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:984][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:984][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:985][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:987][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.41:987][415]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.38.42:631][455]LogHttp: Warning: 0000040648E39600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.38.42:631][455]LogHttp: Warning: 0000040648E39600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.38.42:631][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 1 (  Trying 3.83.72.12:443...)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.83.72.12) port 443 (#31))
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: 0000040648E39600: libcurl info message cache 13 (Closing connection 31)
+[2024.10.16-06.38.42:632][455]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.38.57:243][331]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-06.39.00:443][523]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2024.10.16-06.39.15:807][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-06.39.15:807][443]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.10.16-06.39.15:807][443]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-06.39.15:808][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-06.39.15:808][443]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.10.16-06.39.15:812][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-06.39.15:817][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-06.39.15:862][443]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.16-06.39.15:862][443]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.16-06.39.15:863][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.16-06.39.15:866][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.16-06.39.15:871][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-06.39.15:875][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.10.16-06.39.15:919][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.39.15:938][444]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.10.16-06.39.15:968][444]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.10.16-06.39.43:042][642]LogHttp: Warning: 00000406741EAA00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 1 (  Trying 44.206.104.254:443...)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.206.104.254) port 443 (#32))
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: 00000406741EAA00: libcurl info message cache 13 (Closing connection 32)
+[2024.10.16-06.39.43:043][642]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.40.43:253][376]LogHttp: Warning: 00000406481B3200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 1 (  Trying 34.225.186.159:443...)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.186.159) port 443 (#33))
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: 00000406481B3200: libcurl info message cache 13 (Closing connection 33)
+[2024.10.16-06.40.43:255][376]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.41.43:270][556]LogHttp: Warning: 00000406481BDC00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 1 (  Trying 34.224.20.46:443...)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.20.46) port 443 (#34))
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: 00000406481BDC00: libcurl info message cache 13 (Closing connection 34)
+[2024.10.16-06.41.43:271][556]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.42.43:299][736]LogHttp: Warning: 00000406481B4B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 1 (  Trying 34.196.18.30:443...)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.196.18.30) port 443 (#35))
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.42.43:300][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.42.43:301][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.42.43:301][736]LogHttp: Warning: 00000406481B4B00: libcurl info message cache 13 (Closing connection 35)
+[2024.10.16-06.42.43:301][736]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.43.43:042][ 87]LogHttp: Warning: 000004066AE51E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 1 (  Trying 52.21.90.183:443...)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.90.183) port 443 (#36))
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: 000004066AE51E00: libcurl info message cache 13 (Closing connection 36)
+[2024.10.16-06.43.43:043][ 87]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.43.44:341][141]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/CA02/Aniamtion_Blueprint/ABP_WalkingRunning.ABP_WalkingRunning
+[2024.10.16-06.43.44:380][141]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-06.43.44:395][141]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-06.43.44:524][141]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-06.43.45:207][141]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-06.43.45:207][141]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-06.43.45:684][141]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.10.16-06.43.45:739][141]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.10.16-06.43.51:854][487]LoadErrors: Error: BlendSpace ABP_WalkingRunning has sample Idle_Animation that is invalid due to being out of bounds. Recommend adjusting it.
+[2024.10.16-06.44.01:466][ 15]Cmd: TRANSACTION UNDO
+[2024.10.16-06.44.01:467][ 15]LogEditorTransaction: Undo Edit Minimum Axis Value
+[2024.10.16-06.44.01:809][ 15]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-06.44.01:827][ 15]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-06.44.11:663][529]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.10.16-06.44.15:501][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-06.44.15:717][737]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_WalkingRunning
+[2024.10.16-06.44.15:719][737]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingRunning7847BD0B4AE654CAD19645B81851153E.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_WalkingRunning.uasset'
+[2024.10.16-06.44.15:760][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 258 ms (total: 6.63 sec)
+[2024.10.16-06.44.16:228][737]AssetCheck: New page: Asset Save: ABP_WalkingRunning
+[2024.10.16-06.44.16:229][737]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/CA02/Aniamtion_Blueprint/ABP_WalkingRunning.ABP_WalkingRunning
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 1 (  Trying 18.233.245.230:443...)
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.233.245.230) port 443 (#37))
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.44.43:583][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: 00000406761A3200: libcurl info message cache 13 (Closing connection 37)
+[2024.10.16-06.44.43:584][866]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.45.43:600][ 46]LogHttp: Warning: 00000406761A6900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.45.43:600][ 46]LogHttp: Warning: 00000406761A6900: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 1 (  Trying 3.223.86.121:443...)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.223.86.121) port 443 (#38))
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.45.43:601][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.45.43:602][ 46]LogHttp: Warning: 00000406761A6900: libcurl info message cache 13 (Closing connection 38)
+[2024.10.16-06.45.43:602][ 46]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.46.43:619][226]LogHttp: Warning: 00000406761A1E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.46.43:619][226]LogHttp: Warning: 00000406761A1E00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.46.43:619][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.46.43:619][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 1 (  Trying 54.165.248.126:443...)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.248.126) port 443 (#39))
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: 00000406761A1E00: libcurl info message cache 13 (Closing connection 39)
+[2024.10.16-06.46.43:620][226]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.16-06.47.08:957][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-06.47.09:127][301]LogSavePackage: Moving output files for package: /Game/CA02/Aniamtion_Blueprint/ABP_WalkingRunning
+[2024.10.16-06.47.09:128][301]LogSavePackage: Moving 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Saved/ABP_WalkingRunning190B59D04D89FB4C03071AA9E58A6530.tmp' to 'C:/Users/SAURABH/Documents/GitHub/AFT812_CA02_Saurabh_12322809/Content/CA02/Aniamtion_Blueprint/ABP_WalkingRunning.uasset'
+[2024.10.16-06.47.09:141][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 6.82 sec)
+[2024.10.16-06.47.09:267][301]AssetCheck: New page: Asset Save: ABP_WalkingRunning
+[2024.10.16-06.47.09:267][301]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/CA02/Aniamtion_Blueprint/ABP_WalkingRunning.ABP_WalkingRunning
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 1 (  Trying 44.194.89.63:443...)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.194.89.63) port 443 (#40))
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 3 (ALPN: offers http/1.1)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 12 (SSL certificate problem: self signed certificate in certificate chain)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: 000004065BB11E00: libcurl info message cache 13 (Closing connection 40)
+[2024.10.16-06.47.43:392][323]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA67337FB-48E4-E7F6-E453-75B3F2380677%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0a9afe5c4b919c555d893699cf1484bc%7Cdedb5159c0c74248beba6f668d621b09%7C169b4f28-f61d-4158-ad70-71810af42bde&AppEnvironment=datacollector-binary&UploadType=eteventstream
